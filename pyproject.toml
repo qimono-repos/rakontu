@@ -1,0 +1,21 @@
+[project]
+name = "warmwind-storyboard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "qimono_at_w11", email = "albert@qimono" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "yt-dlp>=2026.8.19",
+]
+
+[project.scripts]
+warmwind-storyboard = "warmwind_storyboard:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
