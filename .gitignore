@@ -8,4 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Secrets
 .env
+
+# Test and tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Generated storyboard output
+rakonto.md

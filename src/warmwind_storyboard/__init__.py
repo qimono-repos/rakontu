@@ -1,2 +1,5 @@
-def main() -> None:
-    print("Hello from warmwind-storyboard!")
+from __future__ import annotations
+
+from .cli import main
+
+__all__ = ["main"]
